@@ -11,18 +11,18 @@
         android:id="@+id/card"
         android:layout_width="200dp"
         android:layout_height="220dp"
-        app:cardBackgroundColor="#171717">
+        app:cardBackgroundColor="#7C7B7B">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:layout_marginTop="20dp">
+            >
 
             <ImageView
                 android:id="@+id/imagen_playlist"
                 android:layout_width="match_parent"
-                android:layout_height="120dp"
+                android:layout_height="190dp"
                 android:adjustViewBounds="true"
                 android:scaleType="centerCrop" />
 
@@ -30,7 +30,7 @@
                 android:id="@+id/titulo_playlist"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
+                android:layout_marginTop="2dp"
                 android:textSize="16sp"
                 android:textAlignment="center"
                 android:textColor="@color/white"

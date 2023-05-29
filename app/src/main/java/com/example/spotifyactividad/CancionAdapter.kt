@@ -14,21 +14,6 @@ import com.squareup.picasso.Picasso
 import kotlin.math.log
 
 class CancionAdapter(private val songs: List<playlistResponse.Playlist.Song>) : RecyclerView.Adapter<CancionAdapter.SongViewHolder>() {
-
-    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): SongViewHolder {
-        val view = LayoutInflater.from(parent.context).inflate(R.layout.item_cancion, parent, false)
-        return SongViewHolder(view)
-    }
-
-    override fun onBindViewHolder(holder: SongViewHolder, position: Int) {
-        val song = songs[position]
-        holder.bind(song)
-    }
-
-    override fun getItemCount(): Int {
-        return songs.size
-    }
-
     inner class SongViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         private val Imagen: ImageView = itemView.findViewById(R.id.imagenCancion)
         private val Artista: TextView = itemView.findViewById(R.id.artistaCancion)
@@ -48,12 +33,13 @@ class CancionAdapter(private val songs: List<playlistResponse.Playlist.Song>) : 
             Nombre.text = song.name
 
             Icono.setOnClickListener {
+
                 //esta parte es para el icono de me gusta
-                song.isFavorite = !song.isFavorite
+                song.esFavorito = !song.esFavorito
 
 
 
-                val favoriteIconResId = if (song.isFavorite) {
+                val favoriteIconResId = if (song.esFavorito) {
                     R.drawable.baseline_favorite_24
                 } else {
                     R.drawable.baseline_favorite_border_24
@@ -61,7 +47,7 @@ class CancionAdapter(private val songs: List<playlistResponse.Playlist.Song>) : 
                 Icono.setImageResource(favoriteIconResId)
 
                 // El mensaje
-                if(song.isFavorite){
+                if(song.esFavorito){
                     val snackbarMessage = "${song.name} se ha añadido a favoritos"
                     Snackbar.make(itemView, snackbarMessage, Snackbar.LENGTH_SHORT).show()
 
@@ -71,4 +57,19 @@ class CancionAdapter(private val songs: List<playlistResponse.Playlist.Song>) : 
 
         }
     }
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): SongViewHolder {
+        val view = LayoutInflater.from(parent.context).inflate(R.layout.item_cancion, parent, false)
+        return SongViewHolder(view)
+    }
+
+    override fun onBindViewHolder(holder: SongViewHolder, position: Int) {
+        val song = songs[position]
+        holder.bind(song)
+    }
+
+    override fun getItemCount(): Int {
+        return songs.size
+    }
+
+
 }

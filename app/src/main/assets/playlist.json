@@ -3,91 +3,91 @@
   "data": [
     {
       "id": 1,
-      "name_of_song": "Bohemian Rhapsody",
-      "number_of_followers": 1000,
-      "dummy_image_url": "https://www.zetatecnologia.com/wp-content/uploads/Im%C3%A1genes-sin-Copyright.jpg",
+      "name_of_song": "This is Quevedo",
+      "number_of_followers": 33450,
+      "dummy_image_url": "https://thisis-images.scdn.co/37i9dQZF1DZ06evO2Xr2ut-default.jpg",
       "songs": [
         {
-          "name": "Bohemian Rhapsody",
-          "url": "https://m.media-amazon.com/images/I/51qFXMrbs4L.jpg",
-          "artist": "Queen"
+          "name": "Ahora Y Siempre",
+          "url": "https://www.tastethefloor.es/wp-content/uploads/2021/12/QV-Portada-Ahora-y-Siempre.jpg",
+          "artist": "Quevedo"
         },
         {
-          "name": "Another One Bites the Dust",
-          "url": "https://m.media-amazon.com/images/I/51qFXMrbs4L.jpg",
-          "artist": "Queen"
+          "name": "Respuesta Cero",
+          "url": "https://i.scdn.co/image/ab67616d0000b273f0a5e3d81ccc3a815f0f3e52",
+          "artist": "Quevedo"
         }
       ]
     },
     {
       "id": 2,
-      "name_of_song": "Hotel California",
-      "number_of_followers": 800,
-      "dummy_image_url": "https://live.staticflickr.com/2301/2106557752_bb8f1eed6a_b.jpg",
+      "name_of_song": "Top Hits",
+      "number_of_followers": 80602,
+      "dummy_image_url": "https://memberdata.s3.amazonaws.com/hi/hitsdd/photos/hitsdd_photo_gal__photo_1290975661.png",
       "songs": [
         {
-          "name": "Hotel California",
-          "url": "https://live.staticflickr.com/2301/2106557752_bb8f1eed6a_b.jpg",
-          "artist": "Eagles"
+          "name": "Goteo",
+          "url": "https://i.scdn.co/image/ab67616d0000b273af4acb77d1a4b71f7f4a67d2",
+          "artist": "Duki"
         },
         {
-          "name": "Take It Easy",
-          "url": "https://live.staticflickr.com/2301/2106557752_bb8f1eed6a_b.jpg",
-          "artist": "Eagles"
+          "name": "Quevedo:Bzrp Session 52",
+          "url": "https://m.media-amazon.com/images/I/61wOKyMm-oL._UXNaN_FMjpg_QL85_.jpg",
+          "artist": "Bzrp,Quevedo"
         }
       ]
     },
     {
       "id": 3,
-      "name_of_song": "Imagine",
-      "number_of_followers": 1200,
-      "dummy_image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6Mv49QlbPV-N7KgJJvS4l1fvwMFvyNVfBIw&usqp=CAU",
+      "name_of_song": "Reggaeton Playlist",
+      "number_of_followers": 12500,
+      "dummy_image_url": "https://i.scdn.co/image/ab67706f00000002f7c31abd682bfed31481fa5a",
       "songs": [
         {
-          "name": "Imagine",
-          "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6Mv49QlbPV-N7KgJJvS4l1fvwMFvyNVfBIw&usqp=CAU",
-          "artist": "John Lennon"
+          "name": "Hasta que Dios Diga",
+          "url": "https://i.scdn.co/image/ab67616d0000b2733cb695bfc1246bdf66161fce",
+          "artist": "Anuel AA"
         },
         {
-          "name": "Jealous Guy",
-          "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6Mv49QlbPV-N7KgJJvS4l1fvwMFvyNVfBIw&usqp=CAU",
-          "artist": "John Lennon"
+          "name": "El Farsante",
+          "url": "https://i.scdn.co/image/ab67616d0000b273b0a875d7f1bfe4ec4aaffa48",
+          "artist": "Ozuna"
         }
       ]
     },
     {
       "id": 4,
-      "name_of_song": "Hey Jude",
-      "number_of_followers": 1500,
-      "dummy_image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMYzr7BFHSRiJx1OB-UALvkrLKnz3OQLhZwLuPSkJO_Ja516O2mTkKLQx9357_ofe1i2Y&usqp=CAU",
+      "name_of_song": "Sad Vibes",
+      "number_of_followers": 34500,
+      "dummy_image_url": "https://i.scdn.co/image/ab67706c0000da84e412176fda75fa7fc6a9ea29",
       "songs": [
         {
-          "name": "Hey Jude",
-          "url": "https://imagenes.heraldo.es/files/image_990_v3/files/fp/uploads/imagenes/2019/09/25/portada-de-abbey-road.r_d.299-177-21438.jpeg",
-          "artist": "The Beatles"
+          "name": "Mami Lo Siento",
+          "url": "https://i.ytimg.com/vi/s5GlvbaRtCg/maxresdefault.jpg",
+          "artist": "KHEA"
         },
         {
-          "name": "Let It Be",
-          "url": "https://imagenes.heraldo.es/files/image_990_v3/files/fp/uploads/imagenes/2019/09/25/portada-de-abbey-road.r_d.299-177-21438.jpeg",
-          "artist": "The Beatles"
+          "name": "Si Te La Encuentras Por Ahí",
+          "url": "https://i1.sndcdn.com/artworks-MjnGFMHTXdPUCybz-2SAz0g-t500x500.jpg",
+          "artist": "Feid"
         }
       ]
     },
     {
       "id": 5,
-      "name_of_song": "Smells Like Teen Spirit",
-      "number_of_followers": 900,
-      "dummy_image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJlQDaJlWGi4PwLVOd5PkRv_BIU7G8KtTikg&usqp=CAU",
+      "name_of_song": "Latin Music",
+      "number_of_followers": 9000,
+      "dummy_image_url": "https://i.scdn.co/image/ab67706f00000002b7fe19419fad777dbc738ffd",
       "songs": [
         {
-          "name": "Smells Like Teen Spirit",
-          "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJlQDaJlWGi4PwLVOd5PkRv_BIU7G8KtTikg&usqp=CAU",
-          "artist": "Nirvana"
+          "name": "DAKITI",
+          "url": "https://i.ebayimg.com/images/g/obAAAOSwrzli4DIU/s-l500.jpg",
+          "artist": "Bad Bunny"
         },
         {
-          "name": "Come as You Are",
-          "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJlQDaJlWGi4PwLVOd5PkRv_BIU7G8KtTikg&usqp=CAU",
-          "artist": "Nirvana"
+          "name": "Rutina",
+          "url": "https://images.genius.com/8b75d3782eb5e4d5b3dea27529019af0.1000x1000x1.jpg",
+          "artist": "Mike Towers"
         }
       ]
     }

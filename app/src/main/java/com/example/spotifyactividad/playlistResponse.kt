@@ -22,7 +22,7 @@ data class playlistResponse(
             val artist: String,
             val name: String,
             val url: String,
-            var isFavorite: Boolean = false
+            var esFavorito: Boolean = false
         ) : Serializable
     }
 }
